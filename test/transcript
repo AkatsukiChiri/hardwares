@@ -1,0 +1,11 @@
+# vsim tb_top -voptargs="+acc" 
+# Start time: 16:38:54 on May 05,2023
+# Loading work.tb_top
+# Loading work.top
+add wave -position end  sim:/tb_top/PERIOD
+add wave -position end  sim:/tb_top/clk
+add wave -position end  sim:/tb_top/rst_n
+add wave -position end  sim:/tb_top/led
+run
+# End time: 16:40:08 on May 05,2023, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 0
